@@ -11,10 +11,12 @@ Sighting.destroy_all
 
 Sighting.create(animal: "Woodpecker", location: "Fountain, CO", date: "9/3/2019", time: "9:00AM", note: "Little bugger woke me up at 4am!", user_id: 8, latitude: 38.693787, longitude: -104.698156)
 
-Sighting.create(animal: "Fox", location: "Breckenridge, co", date: "9/4/2019", time: "9:45AM", note: "Saw it waiting patiently to cross HWY 9!", user_id: 8, latitude: 38.693787, longitude: -104.698156)
+Sighting.create(animal: "Fox", location: "Breckenridge, co", date: "9/4/2019", time: "9:45AM", note: "Saw it waiting patiently to cross HWY 9!", user_id: 8, latitude: 39.4716987, longitude: -105.968651)
 
 Sighting.create(animal: "Rabbit", location: "Denver, co", date: "8/28/2019", time: "10:34AM", note: "Hanging in a parking lot eating some trash.", user_id: 8, latitude: 39.7645187, longitude: -104.9951942,)
 
 Sighting.create(animal: "Deer", location: "Lochbuie, CO", date: "9/1/2019", time: "7:00AM", note: "I've been passing by a group of deer off 76 near the 7-11 for th past couple of days. Be careful while driving!", user_id: 8, latitude: 40.009864, longitude: -104.708080)
+
+Sighting.create(animal: "Dead Wolf", location: "Idaho Springs, CO", date: "9/1/2015", time: "7:00AM", note: "I've been passing by a group of deer off 76 near the 7-11 for th past couple of days. Be careful while driving!", user_id: 8, latitude: 39.7367546, longitude: -105.5322871)
 
 # User.create(first_name: "Blake", last_name: "Long", city: "Denver", state: "CO", email: "hardfoe@yahoo.com")
